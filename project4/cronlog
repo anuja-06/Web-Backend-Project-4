@@ -1,0 +1,80 @@
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2022-05-06 21:21:54 PDT; 11min ago
+       Docs: man:cron(8)
+   Main PID: 16940 (cron)
+      Tasks: 1 (limit: 2295)
+     Memory: 1.2M
+     CGroup: /system.slice/cron.service
+             └─16940 /usr/sbin/cron -f
+
+May 06 21:30:01 tuffix-vm CRON[17142]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 06 21:30:01 tuffix-vm CRON[17144]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+May 06 21:30:01 tuffix-vm CRON[17145]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:30:01 tuffix-vm CRON[17142]: pam_unix(cron:session): session closed for user root
+May 06 21:30:01 tuffix-vm CRON[17143]: (CRON) info (No MTA installed, discarding output)
+May 06 21:30:01 tuffix-vm CRON[17143]: pam_unix(cron:session): session closed for user student
+May 06 21:32:01 tuffix-vm CRON[17304]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:32:01 tuffix-vm CRON[17306]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:32:01 tuffix-vm CRON[17304]: (CRON) info (No MTA installed, discarding output)
+May 06 21:32:01 tuffix-vm CRON[17304]: pam_unix(cron:session): session closed for user student
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2022-05-06 21:21:54 PDT; 13min ago
+       Docs: man:cron(8)
+   Main PID: 16940 (cron)
+      Tasks: 1 (limit: 2295)
+     Memory: 1.0M
+     CGroup: /system.slice/cron.service
+             └─16940 /usr/sbin/cron -f
+
+May 06 21:30:01 tuffix-vm CRON[17143]: (CRON) info (No MTA installed, discarding output)
+May 06 21:30:01 tuffix-vm CRON[17143]: pam_unix(cron:session): session closed for user student
+May 06 21:32:01 tuffix-vm CRON[17304]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:32:01 tuffix-vm CRON[17306]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:32:01 tuffix-vm CRON[17304]: (CRON) info (No MTA installed, discarding output)
+May 06 21:32:01 tuffix-vm CRON[17304]: pam_unix(cron:session): session closed for user student
+May 06 21:34:01 tuffix-vm CRON[17371]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:34:01 tuffix-vm CRON[17372]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:34:01 tuffix-vm CRON[17371]: (CRON) info (No MTA installed, discarding output)
+May 06 21:34:01 tuffix-vm CRON[17371]: pam_unix(cron:session): session closed for user student
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2022-05-06 21:21:54 PDT; 18min ago
+       Docs: man:cron(8)
+   Main PID: 16940 (cron)
+      Tasks: 1 (limit: 2295)
+     Memory: 1.4M
+     CGroup: /system.slice/cron.service
+             └─16940 /usr/sbin/cron -f
+
+May 06 21:36:01 tuffix-vm CRON[17481]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:36:01 tuffix-vm CRON[17481]: (CRON) info (No MTA installed, discarding output)
+May 06 21:36:01 tuffix-vm CRON[17481]: pam_unix(cron:session): session closed for user student
+May 06 21:38:01 tuffix-vm CRON[17654]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:38:01 tuffix-vm CRON[17654]: (CRON) info (No MTA installed, discarding output)
+May 06 21:38:01 tuffix-vm CRON[17654]: pam_unix(cron:session): session closed for user student
+May 06 21:40:01 tuffix-vm CRON[17705]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:40:01 tuffix-vm CRON[17706]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:40:01 tuffix-vm CRON[17705]: (CRON) info (No MTA installed, discarding output)
+May 06 21:40:01 tuffix-vm CRON[17705]: pam_unix(cron:session): session closed for user student
+● cron.service - Regular background program processing daemon
+     Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2022-05-06 21:21:54 PDT; 20min ago
+       Docs: man:cron(8)
+   Main PID: 16940 (cron)
+      Tasks: 1 (limit: 2295)
+     Memory: 1.4M
+     CGroup: /system.slice/cron.service
+             └─16940 /usr/sbin/cron -f
+
+May 06 21:38:01 tuffix-vm CRON[17654]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:38:01 tuffix-vm CRON[17654]: (CRON) info (No MTA installed, discarding output)
+May 06 21:38:01 tuffix-vm CRON[17654]: pam_unix(cron:session): session closed for user student
+May 06 21:40:01 tuffix-vm CRON[17705]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:40:01 tuffix-vm CRON[17706]: (student) CMD (/home/student/Downloads/project4/MaterializingView.py)
+May 06 21:40:01 tuffix-vm CRON[17705]: (CRON) info (No MTA installed, discarding output)
+May 06 21:40:01 tuffix-vm CRON[17705]: pam_unix(cron:session): session closed for user student
+May 06 21:42:01 tuffix-vm CRON[17822]: pam_unix(cron:session): session opened for user student by (uid=0)
+May 06 21:42:01 tuffix-vm CRON[17822]: (CRON) info (No MTA installed, discarding output)
+May 06 21:42:01 tuffix-vm CRON[17822]: pam_unix(cron:session): session closed for user student

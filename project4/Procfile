@@ -1,0 +1,2 @@
+api4: uvicorn --port $PORT api4:app --reload
+api5: uvicorn --port $PORT api5:app --reload
